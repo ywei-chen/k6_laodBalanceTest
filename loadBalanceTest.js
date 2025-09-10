@@ -4,7 +4,7 @@ import { check, sleep } from 'k6';
 
 export const options = {
   insecureSkipTLSVerify: true,
-  /*stages: [
+  /*stages: 
     { duration: '10s', target: 50},
     { duration: '20s', target: 100},
     { duration: '10s', target: 200},
