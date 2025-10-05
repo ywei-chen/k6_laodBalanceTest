@@ -12,10 +12,10 @@ export const options = {
   ]*/
 };
 
-const staff = 'F19712';
-const username = 'ff@mail.com';
-const mail  = '6+SR1h9^c@s]';
-const baseURL = 'https://172.16.32.17:8100/apis/v1/';
+const staff = __ENV.STAFF;
+const username = __ENV.USERNAME;
+const password = __ENV.PASSWORD;
+const baseURL = __ENV.BASE_URL;
 
 
 //cofit auth api
